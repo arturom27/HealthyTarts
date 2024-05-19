@@ -1,0 +1,15 @@
+/* Para navegadores basados en WebKit */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra */
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff0c; /* Color de fondo de la pista */
+    border-radius: 0px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #636363; /* Color del pulgar */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
