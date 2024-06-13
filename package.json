@@ -1,18 +1,42 @@
 {
-  "name": "healthytarts2",
+  "name": "HealthyTarts",
   "version": "1.0.0",
-  "description": "TITLE: Taste - Free Bootstrap 4 Template AUTHOR: Free-Template.co LICENSE: Under Creative Commons 3.0 (free-template.co/license) Twitter: https://twitter.com/Free_Templateco",
-  "main": "sw.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "package": "electron-builder",
+    "start-electron": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.13",
-    "php-express": "^0.0.3"
+  "author": "Marisol Vargas",
+  "license": "MIT",
+  "build": {
+    "appId": "com.tuempresa.HealthyTarts",
+    "productName": "HealthyTarts",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+    },
+    "win": {
+      "icon": "./icon/icono.ico",
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^13.5.1",
+    "electron-builder": "^22.12.0"
   }
 }

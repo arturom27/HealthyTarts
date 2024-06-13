@@ -22,7 +22,7 @@ Version:	1.1
 
 /* body */
 body{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Belleza', sans-serif; /* Aplica la fuente Brittany */
 	font-weight: 400;
 	font-size:14px;
 	color:#363636;
@@ -42,17 +42,17 @@ a,button{
 
 /* Text selection background-color */
 ::-moz-selection {
-    background-color: #f96d00;
+    background-color: #ED7EA6;
     color: #fff;
 }
  
 ::selection {
-    background-color: #f96d00;
+    background-color: #ED7EA6;
     color: #fff;
 }
 ::-moz-selection,
 ::selection {
-    background-color: #f96d00;
+    background-color: #ED7EA6;
     color: #fff;
 }
 /* social */
@@ -69,7 +69,7 @@ a,button{
 .social-body ul li a{
 	font-size:20px;
 	color:#fff;
-	background:#f96d00;
+	background:#ED7EA6;
 	height: 40px;
     width: 40px;
 	line-height:40px;
@@ -127,7 +127,7 @@ a:hover{
 	font-weight: 700;
 }
 .section-title h2 span {
-	color: #f96d00;
+	color: #ED7EA6;
 }
 /*breadcrumb*/
 .breadcrumb{
@@ -144,10 +144,10 @@ a:hover{
 	float: right;
 }
 .breadcrumb .breadcrumb-text h2{
-	color:#f96d00;
+	color:#ED7EA6;
 	text-transform:capitalize;
 	padding-bottom:10px;
-	border-bottom:5px solid #f96d00;
+	border-bottom:5px solid #ED7EA6;
 }
 /*slicknav_menu*/
 .slicknav_menu{
@@ -158,7 +158,7 @@ a:hover{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #f96d00;
+	background: #ED7EA6;
 	color: #fff;
 	font-size: 25px;
 	width: 40px;
@@ -176,13 +176,13 @@ a:hover{
 	Header CSS
 ===========================*/
 .header{
-	background:linear-gradient(-154deg,#f96d00,#3d8963);
+	background:linear-gradient(-154deg,#ED7EA6,#3d8963);
 }
 .header .navbar-collapse{
 	padding:0;
 }
 .header .header-inner {
-	background: linear-gradient(-154deg,#f96d00,#3d8963);
+	background: linear-gradient(-154deg,#ED7EA6,#3d8963);
 	-webkit-box-shadow: 0px 0px 5px #000;
 	-moz-box-shadow: 0px 0px 5px #000;
 	box-shadow: 0px 0px 5px #000;
@@ -260,7 +260,7 @@ a:hover{
 	float:right;
 }
 .header .nav li .dropdown li:hover a{
-	color:#f96d00;
+	color:#ED7EA6;
 }
 .header .nav li .dropdown li a:before{
 	display:none;
@@ -281,7 +281,7 @@ a:hover{
 	visibility:visible;
 }
 .header .nav li .dropdown .sub-dropdown li:hover a {
-	color:#f96d00;
+	color:#ED7EA6;
 }
 .header .nav li .dropdown .sub-dropdown li a{
 	color:#fff;
@@ -350,10 +350,10 @@ a:hover{
 }
 .slider .button .btn:hover{
 	color:#fff;
-	background:#f96d00;
+	background:#ED7EA6;
 }
 .slider .button .primary{
-	background:#f96d00;
+	background:#ED7EA6;
 	color:#fff;
 	border-radius: 20px;
 }
@@ -386,7 +386,7 @@ a:hover{
 	font-size: 15px;
 	height: 40px;
 	color: #fff;
-	background:#f96d00;
+	background:#ED7EA6;
 	text-transform:uppercase;
 	display: inline-block;
 	line-height: 40px;
@@ -415,7 +415,7 @@ a:hover{
 .about .single-about .social li a i {
 	font-size: 20px;
 	color: #fff;
-	background: #f96d00;
+	background: #ED7EA6;
 	font-size: 17px;
 	height: 30px;
 	width: 30px;
@@ -437,7 +437,7 @@ a:hover{
 }
 .about .image .video-popup {
 	color: #fff;
-	background: #f96d0099;
+	background: #ED7EA6;
 	height: 60px;
 	width: 60px;
 	line-height: 60px;
@@ -469,7 +469,7 @@ a:hover{
 	Services CSS
 ===========================*/
 .service{
-	background: linear-gradient(-154deg,#f96d00,#753300);
+	background: linear-gradient(-154deg,#F9AAC4,#ED7EA6);
 	padding: 40px 0 100px;
 }
 .service .section-title {
@@ -587,7 +587,7 @@ a:hover{
 	border-bottom-color:#ED1C24;
 }
 .skill .progress .progress-bar{
-	background:#f96d00;
+	background:#ED7EA6;
 }
 .skill .button{
 	margin-top:20px;
@@ -629,7 +629,7 @@ a:hover{
 	top: 0;
 	height: 100%;
 	width: 1px;
-	background: #f96d00;
+	background: #ED7EA6;
 }
 .story .single-story span {
 	display: block;
@@ -653,7 +653,7 @@ a:hover{
 	top: 9px;
 	height: 18px;
 	width: 18px;
-	background: #f96d00;
+	background: #ED7EA6;
 	border-radius: 100%;
 }
 .story .single-story span::after {
@@ -729,7 +729,7 @@ a:hover{
 .latest-works .works-menu ul li:hover,
 .latest-works .works-menu ul li.active{
 	color:#fff;
-	background:#f96d00;
+	background:#ED7EA6;
 }
 .latest-works .works-menu ul li i{
 	margin-right:5px;
@@ -742,7 +742,7 @@ a:hover{
 	top: 0px;
 	height: 1px;
 	width: 100%;
-	background: #f96d00;
+	background: #ED7EA6;
 	opacity:0;
 	visibility:hidden;
 	transition:all 0.4s ease;
@@ -759,7 +759,7 @@ a:hover{
 	bottom: 0px;
 	height: 1px;
 	width: 100%;
-	background: #f96d00;
+	background: #ED7EA6;
 	opacity:0;
 	visibility:hidden;
 	transition:all 0.4s ease;
@@ -778,7 +778,7 @@ a:hover{
 	overflow:hidden;
 }
 .latest-works .single-work:before{
-	background: #f96d00;
+	background: #ED7EA6;
     top:0px;
 	left:0;
     content: "";
@@ -946,7 +946,7 @@ a:hover{
 	position: absolute;
 	left: 190px;
 	top: 4px;
-	border:4px solid #f96d00;
+	border:4px solid #ED7EA6;
 	border-top:4px solid #fff;
 	border-bottom:4px solid #fff;
 }
@@ -964,7 +964,7 @@ a:hover{
 	margin-top: 70px;
 }
 .testimonials .single-testimonial p .fa{
-	color:#f96d00;
+	color:#ED7EA6;
 	font-size:30px;
 	margin-right:10px;
 }
@@ -980,7 +980,7 @@ a:hover{
 	margin-top: 10px;
 }
 .testimonials .single-testimonial .star i {
-	color: #f96d00;
+	color: #ED7EA6;
 	font-size: 18px;
 	margin-right: 3px;
 }
@@ -1008,7 +1008,7 @@ a:hover{
 }
 .testimonials .owl-dots button.active{
 	background:transparent;
-	border-color:#f96d00;
+	border-color:#ED7EA6;
 	width: 20px;
 }
 .testimonials .owl-dots button span{
@@ -1046,7 +1046,7 @@ a:hover{
 	overflow:hidden;
 }
 .blog .single-news .news-date {
-	background: #f96d00;
+	background: #ED7EA6;
 	position: absolute;
 	left: -80px;
 	top: -20px;
@@ -1079,7 +1079,7 @@ a:hover{
 	color:#000;
 }
 .blog .single-news .news-view {
-	background: #f96d00;
+	background: #ED7EA6;
 	position: absolute;
 	right: -300px;
 	top: 197px;
@@ -1119,14 +1119,14 @@ a:hover{
 	text-decoration:none;
 }
 .blog .single-news .news-body h2:hover a{
-	color:#f96d00
+	color:#ED7EA6
 }
 .blog .single-news .news-body p{
 	color:#999;
 	margin:15px 0;
 }
 .blog .single-news .news-body .btn {
-	background:#f96d00; 
+	background:#ED7EA6; 
 	padding: 0;
 	height: 26px;
 	width: 110px;
@@ -1159,7 +1159,7 @@ a:hover{
 	text-align:center;
 }
 .newslatter .news-text h4{
-	color:#f96d00;
+	color:#ED7EA6;
 	text-transform:capitalize;
 	font-weight:700;
 	font-size:20px;
@@ -1215,7 +1215,7 @@ a:hover{
     color: #a1a1a1 !important;
 }
 .newslatter .form button {
-	background: #f96d00;
+	background: #ED7EA6;
 	border: none;
 	box-shadow: none;
 	height: 50px;
@@ -1268,7 +1268,7 @@ a:hover{
 	text-transform:capitalize;
 }
 .contact .form input:hover,.contact .form input:focus{
-	border-color:#f96d00;
+	border-color:#ED7EA6;
 }
 .contact .form textarea{
 	width: 100%;
@@ -1280,13 +1280,13 @@ a:hover{
 }
 .contact .form textarea:hover,
 .contact .form textarea:focus{
-	border-color:#f96d00;
+	border-color:#ED7EA6;
 }
 .contact .contact-info {
 	margin-top: 26px;
 }
 .contact .contact-info h4{
-	color:#f96d00;
+	color:#ED7EA6;
 	font-size:25px;
 	margin-bottom:20px;
 	text-transform:capitalize;
@@ -1302,15 +1302,15 @@ a:hover{
 	margin-top:10px;
 }
 .contact .contact-info span i {
-	color: #f96d00;
+	color: #ED7EA6;
 	font-size: 20px;
 	min-width: 32px;
 }
 .contact .contact-info span a:hover{
-	color:#f96d00;
+	color:#ED7EA6;
 }
 .contact .form .btn {
-	background: #f96d00;
+	background: #ED7EA6;
 	color: #fff;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -1366,7 +1366,7 @@ a:hover{
 	border:1px solid #e5e5e5;
 }
 #clients .owl-nav button:hover{
-	color:#f96d00;
+	color:#ED7EA6;
 }
 /*===========================
 	End Clients CSS
@@ -1400,14 +1400,14 @@ margin:0;
 	height:42px;
 	border-radius:0px;
 	background:#232328;
-	border:1px solid #f96d00;
+	border:1px solid #ED7EA6;
 	line-height:42px;
 	text-align:center;
 	display:block;
-	color:#f96d00;
+	color:#ED7EA6;
 }
 .footer .social li a:hover{
-	box-shadow:0px 0px 5px #f96d00 inset;
+	box-shadow:0px 0px 5px #ED7EA6 inset;
 	color:#fff;
 }
 .footer .social li span{
